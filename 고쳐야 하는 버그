@@ -1,0 +1,4 @@
+1. raiden-god-page 동영상 버튼 위에서 아래로 내리면 특정 위치에선 순서대로 호버가 안됨.
+2. raiden-god-page 동영상 나오는 영역에서 오른쪽 margin이 브라우저를 줄였을 때 줄여지기는 하는데 margin이 유지가 안됨.
+3. raiden-god-page 동영상 버튼 영역 문제를 z-index로 해결함.
+

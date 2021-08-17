@@ -1,0 +1,125 @@
+.raiden-god-page-content-image-video-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position:relative;
+    transition: 1s ease-in-out;
+    width: 40vw;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+button {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  text-decoration: none;
+  border: rgb(175, 110, 236);
+  border-radius: 40px;
+  box-shadow: 0 4px 6px -1px rgb(175, 110, 236), 0 2px 4px -1px rgb(175, 110, 236);
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgb(175, 110, 236);
+  color: white;
+}
+
+button:active,
+button:hover,
+button:focus {
+  background: rgb(234, 211, 255);
+  border-radius: 20px;
+  color: transparent;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.raiden-god-page-video-button-one:hover > .raiden-god-page-video-image-one {
+  opacity: 1;
+  transition: 1.5s;
+  position:relative;
+  z-index: 5;
+}
+
+.raiden-god-page-video-image-one {
+  position: absolute;
+  opacity: 0;
+  display: block;
+  z-index: -1;
+}
+
+
+
+.raiden-god-page-video-button-two:hover > .raiden-god-page-video-image-two {
+  opacity: 1;
+  transition: 1.5s;
+  position:relative;
+  z-index: 5;
+}
+
+
+.raiden-god-page-video-image-two {
+  position: absolute;
+  opacity: 0;
+  display: block;
+  z-index: -2;
+}
+
+
+
+.raiden-god-page-video-button-three:hover > .raiden-god-page-video-image-three {
+  opacity: 1;
+  transition: 1.5s;
+  position:relative;
+  z-index: 5;
+}
+
+
+.raiden-god-page-video-image-three {
+  position: absolute;
+  opacity: 0;
+  display: block;
+  z-index: -3;
+}
+
+
+
+.raiden-god-page-video-button-four:hover > .raiden-god-page-video-image-four {
+  opacity: 1;
+  transition: 1.5s;
+  position:relative;
+  z-index: 5;
+}
+
+
+.raiden-god-page-video-image-four {
+  position: absolute;
+  opacity: 0;
+  display: block;
+  z-index: -4;
+}
+
+
+/* 이미지 4개가 뒷 공간에 있어서 호버를 하면 선택이 되는 버그를 -1로 처리함.*/
+/* z-index 부여에 대한 명확한 이해가 필요하다.  */
+/* 1 - 2 - 3 - 4 순으로 커서를 내릴 때 1, 3, 4가 선택이 됨.*/
+/* sample image https://picsum.photos/id/237/200/300 */
+/* https://www.daleseo.com/css-buttons/ 버튼 CSS 스타일 */
+/* li tag 초기화 */
+/* https://www.youtube.com/watch?v=7gEJTwsH6kw videoslider */
+

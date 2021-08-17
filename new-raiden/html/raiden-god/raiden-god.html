@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라이덴</title>
+    <link rel="stylesheet" href="./raiden-god.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- raiden-god-page-banner 20vh -->
+    <div class="raiden-god-page-banner">
+        <div class="main-page-buttom" onclick="location.href='../../home/home.html';">
+            <p>메인 페이지</p>
+        </div>
+        <div class="raiden-god-page-buttom" onclick="location.href='../../html/raiden-god/raiden-god.html';"> 
+            <p>현재 페이지</p>
+        </div>
+        <div class="raiden-skill-page-buttom" onclick="location.href='../../html/raiden-skill/raiden-skill.html';"> 
+            <p>다음 페이지</p>
+        </div>
+    </div>
+
+    <!-- raiden-god-page-previous-controller 80vh -->
+    <div class="raiden-god-page-previous-controller">
+        <div class="raiden-god-page-pv"></div>
+        <div class="raiden-god-page-content">
+            <div class="raiden-god-page-content-image-video">
+                <div class="raiden-god-page-content-image-video-buttons">
+                    <button class="raiden-god-page-video-button-one" onclick="videoUrl('../../source/raiden-god-page/raiden-god-page-stoty-toma/toma.mp4')">
+                        토마 구출 퀘스트
+                        <li class="raiden-god-page-video-image-one">
+                            <img src="https://picsum.photos/id/237/200/300" >
+                        </li>
+                    </button>
+                    <button class="raiden-god-page-video-button-two" onclick="">
+                        메인 퀘스트
+                        <li class="raiden-god-page-video-image-two">
+                            <img src=" https://picsum.photos/id/237/200/300">
+                        </li>
+                    </button>
+                    <button class="raiden-god-page-video-button-three" onclick="">
+                        서브 퀘스트
+                        <li class="raiden-god-page-video-image-three">
+                            <img src=" https://picsum.photos/id/237/200/300">
+                        </li>
+                    </button>
+                    <button class="raiden-god-page-video-button-four" onclick="">
+                        공식 pv
+                        <li class="raiden-god-page-video-image-four" >
+                            <img src=" https://picsum.photos/id/237/200/300">
+                        </li>
+                    </button>
+                </div>
+                <video 
+                id="raiden-god-page-content-story-video" 
+                src="../../source/raiden-god-page/raiden-god-page-story-video/sample-mp4-file.mp4">
+                </video>
+            </div>
+            <div class="raiden-god-page-content-IP">
+                <div>
+                    <svg id="bootstrap-icon-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" >
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                    </svg>
+                </div>
+                <div class="slider-container">
+                    <div
+                        class="slide active"
+                        style="
+                        background-image: url('../../source/원신\ 이나즈마\ 신사.png');
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        "
+                    >
+                    </div>
+                    <div
+                        class="slide"
+                        style="
+                        background-image: url('https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80');
+                        "
+                    ></div>
+
+                    <div
+                        class="slide"
+                        style="
+                        background-image: url('https://images.unsplash.com/photo-1495467033336-2effd8753d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+                        "
+                    ></div>
+
+                    <div
+                        class="slide"
+                        style="
+                        background-image: url('https://images.unsplash.com/photo-1522735338363-cc7313be0ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
+                        "
+                    ></div>
+
+                    <div
+                        class="slide"
+                        style="
+                        background-image: url('https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+                        "
+                    ></div>
+                    </div>
+                <div>
+                    <svg id="bootstrap-icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- button get video -->
+    <script type="text/javascript">
+        function videoUrl(anotherurl) {
+            document.getElementById("raiden-god-page-content-story-video").src = anotherurl;
+        }
+    </script>
+
+    <!-- carousel -->
+    <script src="../../javascript/raiden-body/raiden-god/raiden-god-page-content-ip-carousel/raiden-god-page-content-ip-carousel.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,27 @@
+.raiden-god-page-content-image-video{
+    display: flex;
+    gap: 60px;
+}
+
+
+/* 
+.raiden-god-page-content-image-illustration{
+    width: 25vw;
+    height: 60vh;
+    transition: 1s ease-in-out;
+} */
+
+/* 일러스트 폐기 */
+/* 픽셀값으로 넣었을 때 비율에 따라서 시각적으로 좋은 비율이 있다. */
+
+
+#raiden-god-page-content-story-video {
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+    transition: 1s ease-in-out;
+    margin-right: 1vw;
+}
+
+/* 비디오의 크기는 원래 크기에서 벗어나지 못한다. -> 주변에 무언가로 채워주기 -> 버튼으로 스토리별 영상 선택 (30vw)*/
+

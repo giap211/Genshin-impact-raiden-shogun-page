@@ -1,0 +1,81 @@
+/* .raiden-god-page-content-IP::before background-color:transparent */
+
+
+.raiden-god-page-content-IP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    width: 100vw;
+    gap: 50px;
+}
+
+.raiden-god-page-content-IP::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    z-index: -1;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.slider-container {
+    position: relative;
+    box-shadow: 0 3px 6px black;
+    border-radius: 20px;
+    height: 70vh;
+    width: 70vw;
+    overflow: hidden;
+    margin-right: 1vw;
+    transition: 1s;
+    flex: 0.7;
+}
+
+.slider-container:hover{
+    transform: scale(1.04);
+}
+
+.slide {
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+#bootstrap-icon-arrow-left{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    transition: 1s;
+}
+
+#bootstrap-icon-arrow-left:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#bootstrap-icon-arrow-right {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    transition: 1s;
+}
+
+#bootstrap-icon-arrow-right:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}

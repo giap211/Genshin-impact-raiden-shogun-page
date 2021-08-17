@@ -1,0 +1,25 @@
+/* raiden-god-page-banner-css folder */
+@import url("./raiden-god-page-banner-css/raiden.god-page-banner.css");
+@import url("./raiden-god-page-banner-css/main-page-buttom.css");
+@import url("./raiden-god-page-banner-css/raiden-god-page-buttom.css");
+@import url("./raiden-god-page-banner-css/raiden-skill-page-buttom.css");
+
+
+/* raiden-god-page-previous-controller folder */
+@import url("./raiden-god-page-previous-controller/raideon-god-page-previous-controller.css");
+@import url("./raiden-god-page-previous-controller/raiden-god-page-pv.css");
+@import url("./raiden-god-page-previous-controller/raiden-god-page-content.css");
+@import url("./raiden-god-page-previous-controller/raiden-god-page-content-image-video.css");
+@import url("./raiden-god-page-previous-controller/raiden-god-page-content-image-video-buttons.css");
+@import url("./raiden-god-page-previous-controller/raiden-god-page-content-IP.css");
+
+:root {
+    --background_color:rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    background-color: var(--background_color);
+    background-image: url();
+}
+

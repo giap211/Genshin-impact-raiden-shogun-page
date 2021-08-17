@@ -1,0 +1,16 @@
+/* raiden-body */
+@import url(../css/raiden-body/raiden-body.css);
+@import url(../css/raiden-body/raiden-god.css);
+@import url(../css/raiden-body/raiden-skill.css);
+@import url(../css/raiden-body/raiden-manga.css);
+@import url(../css/raiden-body/raiden-minigame.css);
+
+
+:root {
+    --background_color:rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    background-color: var(--background_color);
+}

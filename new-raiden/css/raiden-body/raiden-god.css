@@ -1,0 +1,38 @@
+.raiden-god {
+    display: flex;
+    width: 100vw;
+    max-width: 80vw;
+    height: 25vh;
+    margin: 20px;
+    background-color: blueviolet;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.raiden-god:hover {
+    transform: scale(0.95);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.raiden-god-title{
+    color: white;
+    font-size: 3em;
+}
+
+.raiden-god-page-link {
+    text-decoration: none;
+    color: white;
+}
+
+.raiden-god-page-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.raiden-god-page-link:hover {
+    text-decoration: none;
+    color: white;
+}
