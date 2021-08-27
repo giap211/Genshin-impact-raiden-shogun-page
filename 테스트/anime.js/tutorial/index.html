@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box red"></div>
-    <div class="box blue"></div>
-    <div class="box green"></div>
-    <div class="box yellow"></div>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.js"></script>
-    <script src="main.js"></script>
+   <div class="demo-wrapper">
+       <div class="square"></div>
+   </div>
+   <script src="../anime-master/lib/anime.js"></script>
+   <script>
+       anime({
+           target: '.square',
+           translateX:250
+       });
+   </script>
 </body>
 </html>

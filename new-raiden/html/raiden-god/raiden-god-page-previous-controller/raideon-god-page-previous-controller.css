@@ -1,19 +1,15 @@
-.raiden-god-page-previous-controller {
+#raiden-god-page-previous-controller {
     height: 80vh;
     width: 100vw;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    z-index: 8;
+    display: none;
 }
 
-/* .raiden-god-page-previous-controller::before {
-    content: '';
-    position: absolute;
-    top: 1;
-    left: 0;
-    height: 80vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-} */
+/* display: none; */
+
+
+

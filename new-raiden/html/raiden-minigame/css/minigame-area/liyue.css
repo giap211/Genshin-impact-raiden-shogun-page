@@ -1,0 +1,68 @@
+.liyue {
+    display: flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.liyue:hover {
+    position: relative;
+    border: white solid 5px;
+    cursor: pointer;
+}
+
+#liyue-background-img {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+    z-index: -2;
+    filter: brightness(0.70);
+    animation-name:none;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+@keyframes hovereffect {
+    to{
+        transform: scale(1.2);
+    }
+}
+
+
+#liyue-background-img:hover {
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+    overflow: hidden;
+    filter: brightness(1);
+}
+
+#liyue-background-img-text{
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+}
+
+#liyue-background-img-character-container{
+    width: 100%;
+    height: 25vh;
+    opacity: 0;
+}
+
+#liyue-background-img-character-container:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+#liyue-background-img-character-zhongli{
+    height: 25vh;
+    position:absolute;
+    left: 15%;
+}

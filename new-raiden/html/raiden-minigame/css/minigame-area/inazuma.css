@@ -1,0 +1,53 @@
+.inazuma {
+    display: flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.inazuma:hover {
+    transition: 0s;
+    border: white solid 5px;
+}
+
+#inazuma-background-img {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 25vh;
+    z-index: -2;
+    filter: brightness(0.70);
+    animation-name:none;
+    animation-duration: 1s;
+    overflow: hidden;
+}
+
+@keyframes hovereffect {
+    to{
+        transform: scale(1.2);
+    }
+}
+
+
+#inazuma-background-img:hover {
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 1s;
+    overflow: hidden;
+    filter: brightness(1);
+}
+
+#inazuma-background-img-text{
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+/* https://m.blog.naver.com/parangbee/221739061995 */

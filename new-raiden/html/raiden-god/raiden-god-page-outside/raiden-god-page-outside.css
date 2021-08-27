@@ -1,0 +1,115 @@
+#raiden-god-page-outside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(39, 38, 38);
+    z-index: 10;
+    animation-duration: 2s;
+}
+
+@keyframes moveUnder {
+    0% 
+    {
+        height: 100vh;
+    }
+    25%
+    {
+        height: 75vh;
+    }
+    50%
+    {
+        height: 50vh;
+    }
+    100%
+    {
+        height: 0vh;
+    }
+}
+
+/* 
+
+how to get keyframe in javascript?
+
+
+*/
+
+#raiden-god-page-outside-slider-video-container {
+    position: relative;
+    box-shadow: 0 3px 6px white;
+    border-radius: 20px;
+    height: 70vh;
+    width: 70vw;
+    overflow: hidden;
+    margin-right: 1vw;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 2s;
+}
+
+@keyframes movecontainer {
+    0% 
+    {
+        height: 50vh;
+        width: 50vw;
+    }
+    25%
+    {
+        height: 40vh;
+        width: 40vw;
+    }
+    50%
+    {
+        height: 30vh;
+        width: 30vw;
+    }
+    100%
+    {
+        height: 0vh;
+        width: 0vw;
+    }
+}
+
+#raiden-god-page-outside-slider-video{
+    animation-duration: 2s;
+}
+
+@keyframes moveUnder {
+    0% 
+    {
+        height: 100vh;
+    }
+    25%
+    {
+        height: 75vh;
+    }
+    50%
+    {
+        height: 50vh;
+    }
+    100%
+    {
+        height: 0vh;
+    }
+}
+
+#bootstrap-icon-arrow-close{
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    transition: 1s;
+    color: white;
+    top: 1vh;
+    left: 60vw;
+    cursor: pointer;
+    animation-duration: 2s;
+}
+
+#bootstrap-icon-arrow-close:hover{
+    transform: scale(1.1);
+}

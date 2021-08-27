@@ -10,109 +10,139 @@
 
 </head>
 <body>
-
-    <!-- raiden-god-page-banner 20vh -->
-    <div class="raiden-god-page-banner">
-        <div class="main-page-buttom" onclick="location.href='../../home/home.html';">
-            <p>메인 페이지</p>
-        </div>
-        <div class="raiden-god-page-buttom" onclick="location.href='../../html/raiden-god/raiden-god.html';"> 
-            <p>현재 페이지</p>
-        </div>
-        <div class="raiden-skill-page-buttom" onclick="location.href='../../html/raiden-skill/raiden-skill.html';"> 
-            <p>다음 페이지</p>
+    <!-- raiden-god-page-outside 100vh z-index --start-- -->
+    
+    <div id="raiden-god-page-outside">
+        <div id="raiden-god-page-outside-slider-video-container">
+            <div id="raiden-god-page-outside-slider-video">
+                <div class="raiden-god-page-outside-slider-video-closebutton">
+                    <svg 
+                    id="bootstrap-icon-arrow-close" 
+                    class="bi bi-x-square" 
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+                <video 
+                    id="raiden-god-page-content-story-video" 
+                    src="../../source/raiden-god-page/raiden-god-page-story-video/sample-mp4-file.mp4">
+                </video>
+            </div>
         </div>
     </div>
 
-    <!-- raiden-god-page-previous-controller 80vh -->
-    <div class="raiden-god-page-previous-controller">
-        <div class="raiden-god-page-pv"></div>
-        <div class="raiden-god-page-content">
-            <div class="raiden-god-page-content-image-video">
-                <div class="raiden-god-page-content-image-video-buttons">
-                    <button class="raiden-god-page-video-button-one" onclick="videoUrl('../../source/raiden-god-page/raiden-god-page-stoty-toma/toma.mp4')">
-                        토마 구출 퀘스트
-                        <li class="raiden-god-page-video-image-one">
-                            <img src="https://picsum.photos/id/237/200/300" >
-                        </li>
-                    </button>
-                    <button class="raiden-god-page-video-button-two" onclick="">
-                        메인 퀘스트
-                        <li class="raiden-god-page-video-image-two">
-                            <img src=" https://picsum.photos/id/237/200/300">
-                        </li>
-                    </button>
-                    <button class="raiden-god-page-video-button-three" onclick="">
-                        서브 퀘스트
-                        <li class="raiden-god-page-video-image-three">
-                            <img src=" https://picsum.photos/id/237/200/300">
-                        </li>
-                    </button>
-                    <button class="raiden-god-page-video-button-four" onclick="">
-                        공식 pv
-                        <li class="raiden-god-page-video-image-four" >
-                            <img src=" https://picsum.photos/id/237/200/300">
-                        </li>
-                    </button>
-                </div>
-                <video 
-                id="raiden-god-page-content-story-video" 
-                src="../../source/raiden-god-page/raiden-god-page-story-video/sample-mp4-file.mp4">
-                </video>
+    <!-- raiden-god-page-outside 100vh z-index --end-- -->
+
+
+
+
+    <div class="raiden-god-page-inside">
+        
+        <!-- raiden-god-page-banner 20vh -->
+        <div id="raiden-god-page-banner">
+            <div class="main-page-buttom" onclick="location.href='../../home/home.html';">
+                <p>메인 페이지</p>
             </div>
-            <div class="raiden-god-page-content-IP">
-                <div>
-                    <svg id="bootstrap-icon-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" >
-                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                    </svg>
-                </div>
-                <div class="slider-container">
-                    <div
-                        class="slide active"
-                        style="
-                        background-image: url('../../source/원신\ 이나즈마\ 신사.png');
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                        "
-                    >
+            <div class="raiden-god-page-buttom" onclick="location.href='../../html/raiden-god/raiden-god.html';"> 
+                <p>현재 페이지</p>
+            </div>
+            <div class="raiden-skill-page-buttom" onclick="location.href='../../html/raiden-skill/raiden-skill.html';"> 
+                <p>다음 페이지</p>
+            </div>
+        </div>
+    
+        <!-- raiden-god-page-previous-controller 80vh -->
+        <div id="raiden-god-page-previous-controller">
+            <div class="raiden-god-page-pv"></div>
+            <div class="raiden-god-page-content">
+                <div class="raiden-god-page-content-image-video">
+                    <div class="raiden-god-page-content-image-video-buttons">
+                        <button class="raiden-god-page-video-button-one" onclick="videoUrl('../../source/raiden-god-page/raiden-god-page-stoty-toma/toma.mp4')">
+                            토마 구출 퀘스트
+                            <li class="raiden-god-page-video-image-one">
+                                <img src="https://picsum.photos/id/237/200/300" >
+                            </li>
+                        </button>
+                        <button class="raiden-god-page-video-button-two" onclick="">
+                            메인 퀘스트
+                            <li class="raiden-god-page-video-image-two">
+                                <img src=" https://picsum.photos/id/237/200/300">
+                            </li>
+                        </button>
+                        <button class="raiden-god-page-video-button-three" onclick="">
+                            서브 퀘스트
+                            <li class="raiden-god-page-video-image-three">
+                                <img src=" https://picsum.photos/id/237/200/300">
+                            </li>
+                        </button>
+                        <button class="raiden-god-page-video-button-four" onclick="">
+                            공식 pv
+                            <li class="raiden-god-page-video-image-four" >
+                                <img src=" https://picsum.photos/id/237/200/300">
+                            </li>
+                        </button>
                     </div>
-                    <div
-                        class="slide"
-                        style="
-                        background-image: url('https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80');
-                        "
-                    ></div>
-
-                    <div
-                        class="slide"
-                        style="
-                        background-image: url('https://images.unsplash.com/photo-1495467033336-2effd8753d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
-                        "
-                    ></div>
-
-                    <div
-                        class="slide"
-                        style="
-                        background-image: url('https://images.unsplash.com/photo-1522735338363-cc7313be0ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
-                        "
-                    ></div>
-
-                    <div
-                        class="slide"
-                        style="
-                        background-image: url('https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
-                        "
-                    ></div>
-                    </div>
-                <div>
-                    <svg id="bootstrap-icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                    </svg>
+                    <video 
+                    id="raiden-god-page-content-story-video" 
+                    src="../../source/raiden-god-page/raiden-god-page-story-video/sample-mp4-file.mp4">
+                    </video>
                 </div>
+                <div class="raiden-god-page-content-IP">
+                    <div>
+                        <svg id="bootstrap-icon-arrow-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" >
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                        </svg>
+                    </div>
+                    <div class="slider-container">
+                        <div
+                            class="slide active"
+                            style="
+                            background-image: url('../../source/원신\ 이나즈마\ 신사.png');
+                            background-position: center;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            "
+                        >
+                        </div>
+                        <div
+                            class="slide"
+                            style="
+                            background-image: url('https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80');
+                            "
+                        ></div>
+    
+                        <div
+                            class="slide"
+                            style="
+                            background-image: url('https://images.unsplash.com/photo-1495467033336-2effd8753d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+                            "
+                        ></div>
+    
+                        <div
+                            class="slide"
+                            style="
+                            background-image: url('https://images.unsplash.com/photo-1522735338363-cc7313be0ae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
+                            "
+                        ></div>
+    
+                        <div
+                            class="slide"
+                            style="
+                            background-image: url('https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+                            "
+                        ></div>
+                        </div>
+                    <div>
+                        <svg id="bootstrap-icon-arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- button get video -->
@@ -125,5 +155,83 @@
     <!-- carousel -->
     <script src="../../javascript/raiden-body/raiden-god/raiden-god-page-content-ip-carousel/raiden-god-page-content-ip-carousel.js"></script>
    
+    <!-- raiden-god-page-outside-close -->
+    <script type="text/javascript">
+        
+
+        // 함수 실행 시 display값이 바뀜.
+        var vDisplay = true;
+        const outside = document.getElementById('raiden-god-page-outside');
+
+        function doDisplay(){
+            if( outside.style.display == 'none'){
+                outside.style.display = 'block';
+            } else {
+                outside.style.display ='none';
+            }
+        }; 
+
+
+
+        // 함수 실행 시 일정 시간에 걸쳐 opacity, blur 값이 변함.
+
+        // let load = 0;
+        // let int = setInterval(blurring, 30)
+
+        // function blurring() {
+        //     load++
+
+        //     if (load > 99) {
+        //         clearInterval(int)
+        //     }
+        //     con.style.opacity = scale(load, 0, 100, 1, 0)
+        //     con.style.filter = 'blur(${scale(load, 0, 100, 30, 0)}px)'
+
+        // }
+
+        // const scale = (num, in_min, in_max, out_min, out_max) => {
+        // return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+        // }
+
+
+        const closeButton = document.getElementById('bootstrap-icon-arrow-close');
+        const raidenpvvideo = document.getElementById('raiden-god-page-content-story-video');
+        const raidenoutsidevideo = document.getElementById('raiden-god-page-outside-slider-video-container');
+        const raidenoutsidevideowraper = document.getElementById('raiden-god-page-outside-slider-video')
+        const raidenbanner = document.getElementById('raiden-god-page-banner');
+        const raidenpreviouscontroller = document.getElementById('raiden-god-page-previous-controller');
+
+
+        closeButton.addEventListener('click', () => {
+
+            let load = 75;
+            let int = setInterval(delayclose, 70)
+            
+            function delayclose() {
+            load++
+            outside.style.animationName = 'moveUnder'
+            closeButton.style.animationName = 'moveUnder'
+            raidenpvvideo.style.animationName = 'movevideo'
+            raidenoutsidevideo.style.animationName = 'movecontainer'
+            raidenoutsidevideowraper.style.animationName = 'moveUnder'
+            raidenbanner.style.display = 'flex'
+            raidenpreviouscontroller.style.display = 'flex'
+            
+            if (load > 99) {
+                clearInterval(int)
+                doDisplay()
+            }
+            // closeButton.style.transform = 'scale(0)'
+            // raidenpvvideo.style.transform = 'scale(0)'
+            // raidenoutsidevideo.style.transform = 'scale(0)'
+
+            }
+        
+        }   
+    
+        )
+
+        
+    </script>
 </body>
 </html>

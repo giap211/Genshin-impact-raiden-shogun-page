@@ -1,1 +1,15 @@
 https://freefrontend.com/anime-js-examples/
+
+- 라이브러리로 만든 anime.js 예제들
+
+https://darrengwon.tistory.com/129?category=858364
+
+-반응형 웹 워크 플로우
+
+https://xelf.malangmalang.com/land/diy-card-viewer#fVwfDPieYxY
+
+-카드 만들어주는 웹사이트
+
+https://github.com/joe-gerhard/Solitaire
+
+-바닐라 자바스크립트 카드 게임

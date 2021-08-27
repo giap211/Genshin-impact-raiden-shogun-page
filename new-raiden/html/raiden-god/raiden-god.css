@@ -5,6 +5,12 @@
 @import url("./raiden-god-page-banner-css/raiden-skill-page-buttom.css");
 
 
+/* raiden-god-page-outside folder */
+@import url("./raiden-god-page-outside/raiden-god-page-outside.css");
+
+
+
+
 /* raiden-god-page-previous-controller folder */
 @import url("./raiden-god-page-previous-controller/raideon-god-page-previous-controller.css");
 @import url("./raiden-god-page-previous-controller/raiden-god-page-pv.css");

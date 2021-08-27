@@ -1,7 +1,11 @@
-.raiden-god-page-banner {
+#raiden-god-page-banner {
     height: 20vh;
     display: flex;
     justify-content: space-around;
     margin: 20px;
-    gap:2%
+    gap:2%;
+    z-index: 9;
+    position: relative;
+    display: none;
 }
+/* display: none; */
